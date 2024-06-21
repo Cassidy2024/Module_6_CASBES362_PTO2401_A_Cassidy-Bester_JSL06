@@ -18,8 +18,6 @@ function displayMenuItems(menu) {
 }
 
 //displayMenuItems(menu);
-
-
 const container = document.getElementById(`menu`);
 
 function handleItemClick(event) {
@@ -44,9 +42,6 @@ Object.keys(menu).forEach(category => {
     });
 });
     
-            
-
-
 // Callback function for adding an item to the order
 function addToOrder(itemName) {
     // Get the order items list and the order total element from the HTML
